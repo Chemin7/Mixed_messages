@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body{
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#autor{
+    display: inline-block;
+    margin-left: 30px;
 }

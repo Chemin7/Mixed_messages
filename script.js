@@ -15,15 +15,20 @@ function generateQuote(quoteObj){
     let index = generateRandomNumber(quoteObj['quotes'].length)
     let quote =`"${quoteObj.quotes[index]}" `;
     let autor  = `${quoteObj.autor[index].toUpperCase()}`
+
+    
     return [quote,autor];
 }
 
 let quote = document.getElementById('quote');
 let autor = document.getElementById('autor');
 
+function loadQuote(){
+    let wholeQuote = generateQuote(inspirationalQuotes);
+    quote.innerText = wholeQuote[0];
+    autor.innerText = "-" + wholeQuote[1];
+}
 
-quote.innerText = generateQuote(inspirationalQuotes)[0];
-autor.innerText = "-" + generateQuote(inspirationalQuotes)[1];
 
 
-
+window.onload(loadQuote());
