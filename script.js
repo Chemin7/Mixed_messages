@@ -6,8 +6,11 @@ const inspirationalQuotes = {
     quotes:["I can't change the direction of the wind, but I can adjust my sails to always reach my destination.",
             "The Best Way To Get Started Is To Quit Talking And Begin Doing.",
             "Don’t Let Yesterday Take Up Too Much Of Today.",
-            "It’s Not Whether You Get Knocked Down, It’s Whether You Get Up."],
-    autor:["Jimmy Dean","Walt Disney","Will Rogers","Vince Lombardi"]
+            "It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.",
+            "Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.",
+            "We May Encounter Many Defeats But We Must Not Be Defeated.",
+            "We Generate Fears While We Sit. We Overcome Them By Action."],
+    autor:["Jimmy Dean","Walt Disney","Will Rogers","Vince Lombardi","Og Mandino","Maya Angelou","Henry Link"]
     
 }
 
