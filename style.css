@@ -12,3 +12,23 @@ body{
     display: inline-block;
     margin-left: 30px;
 }
+
+button{
+    padding: 0.8rem;
+    border-radius: 15px;
+    border: 0px;
+    background-color: lightgray;
+    color:black;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: black;
+    color:lightgray; 
+}
+
+blockquote{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
